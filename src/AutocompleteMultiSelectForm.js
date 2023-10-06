@@ -44,7 +44,7 @@ function AutocompleteForm() {
         getOptionLabel={(option) => option.label}
         onChange={(e, value) => formik.setFieldValue('selectedOption', value)}
         onBlur={formik.handleBlur}
-        multiple 
+        multiple
         value={formik.values.selectedOption}
         renderInput={(params) => (
           <TextField
