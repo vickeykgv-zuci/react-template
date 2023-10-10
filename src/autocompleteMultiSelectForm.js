@@ -49,6 +49,7 @@ function AutocompleteForm() {
         renderInput={(params) => (
           <TextField
             {...params}
+            name="textField"
             label="Select an option"
             variant="outlined"
             placeholder='placeholder'
